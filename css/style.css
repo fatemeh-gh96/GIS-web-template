@@ -1,0 +1,177 @@
+@font-face {
+    font-family: Yekan;
+    src: url(Yekan.woff);
+}
+body{
+    font-family: Yekan; 
+    overflow-x: hidden;
+}
+/**header**/
+.header-div{ 
+    background-color:  #0c0f38;
+    padding: 40px;
+    direction: rtl;
+}
+
+.nav-div{
+    direction: ltr;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #fdd430;
+}
+/**section 1**/
+.sec1{
+    background-color:  #0c0f38; 
+    padding-bottom: 20px;
+}
+.sec1 h1 {
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+.sec1 span{
+    color:#fdd430;
+    font-size:30px;
+
+}
+.sec1 p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 40px 0px;
+}
+.sec1 img:hover{
+    transform:rotate(5deg)
+}
+/**section 2**/
+.sec2{
+    background-color: #ffffff;    
+    direction:rtl;
+    text-align:center;
+    padding-bottom: 50px;
+    
+}
+.sec2 h1 {
+    color: #8308eb;
+    font-size: 50px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+.sec2 p{
+    text-align:center;
+    color:#000;
+    font-size:17px;
+
+}
+.sec2 a{
+    color:#fff;
+    text-decoration:none;
+}
+.sec2 button{
+    background-color:#0c0f38;
+}
+.sec2 button:hover{
+    background-color:#fdd430;
+}
+.sec2 img:hover{
+    transform:rotate(-5deg)
+}
+/**section 3**/
+.sec3{
+    background-color:  #0c0f38;    
+    text-align:center;
+    
+    
+}
+.sec3-box{
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width:330px;
+    box-shadow: #ddd 0px 0px 5px;
+    color: #000;
+}
+.sec3-box:hover{
+    transform: scale(1.1);
+    background-color: #fff;
+}
+.sec3 h1 {
+    color: #8308eb;
+    font-size: 50px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+/**section 4**/
+.sec4{
+    background-color: #ffffff;    
+    direction:rtl;
+    text-align:center;
+    padding-bottom: 50px;
+    
+}
+.sec4 h2 {
+    color: #8308eb;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+#div-form{
+    background-color:  #fff; 
+    padding: 30px;
+    height: 150;
+}
+.sec4 form{
+        background: #0c0f38;
+        padding: 55px 55px;
+        border-radius: 30px;
+        margin-bottom: -58%;
+}
+.input-style{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: #ddd 0px 0px 1px;
+    line-height: 2;
+}
+form button{
+    background-color: #fdd430;
+    color: #0c0f38;
+    border: none;
+    border-radius: 3px;
+}
+/**footer**/
+footer{
+    background-color: #0c0f38;
+    text-align: center;
+    color: #fff;
+    padding-top: 270px;
+
+}
+footer div{
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    color: #000
+}
+/**about**/
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+@media (min-width: 576px) and (max-width: 767px) {
+ 
+}
+@media (max-width: 575px) {
+    #logo {
+        text-align: center !important;
+        padding-bottom: 25px;
+    }
+    body{
+        text-align: center;
+    }
+
+}
