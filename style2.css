@@ -1,0 +1,55 @@
+.btn_1{
+    background-image: linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%);
+    
+}
+body{
+    direction: rtl;
+     font-family: "Roboto", sans-serif;
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+    
+}
+#txt1{
+    text-align: center;
+}
+.sidebar2{
+    list-style: none;
+}
+.card{
+    width: 100px;
+    height: 100px;
+}
+.list button:hover{
+    background-color: #ee390f;
+
+
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.sec1 img:hover {
+    transform: rotate(5deg);
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+body {
+    font-family: Yekan;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Yekan;
+    overflow-x: hidden;
+}
