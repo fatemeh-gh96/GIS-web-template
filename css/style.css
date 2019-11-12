@@ -272,7 +272,43 @@ form button{
     border: none;
     border-radius: 3px;
 }
-
+/**contact page**/
+.cantact-div{
+    direction: rtl;
+    text-align: right;
+    padding: 30px;
+}
+.cantact-div h2{
+    color: #8308eb
+}
+.cantact-div h4{
+    color: #0c0f38
+}
+/**map**/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:75%;
+    width:80%;
+    position:absolute;
+}
+.contact-form{
+    text-align: center;
+    direction: rtl;
+}
+.contact-form h2{
+    color: #8308eb;
+    padding-bottom: 20px;
+}
+.contact-form button:hover{
+    background-color: #8308eb;
+}
 @media (min-width: 768px) and (max-width: 991px) {}
 
 @media (min-width: 576px) and (max-width: 767px) {}
@@ -292,5 +328,12 @@ form button{
         height: 100px;
 
     }
+    .aboutApp-div{
+        margin-bottom: 150px;
+    }
+    .aboutApp-div img{
+        display: none;
+    }
+
 
 }
