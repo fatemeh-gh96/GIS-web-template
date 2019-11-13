@@ -337,3 +337,28 @@ form button{
 
 
 }
+/**blog**/
+#id{
+    background-image:url("img/2.jpg");
+    background-repeat:no-repeat;
+}
+#txt{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:rgb(250, 244, 244);
+}
+.txt-1{
+    text-align: center;
+    margin-top: 50px;
+}
+#row1{
+    margin-bottom: 50px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+.d-inline-block {
+    display: inline-block!important;
+}
