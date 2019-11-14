@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="js/bootstrap.min.js">
 </head>
 
-<body>
+<body class="info-section">
     <!-- header -->
     <section role="navigation">
         <nav class="navbar-expand-md navbar-dark navbar-toggleable-sm header-div row ">
@@ -42,52 +42,73 @@
             </div>
         </nav>
     </section>
+    <!--section contact -->
     <div class="col-md-12 row ">
-        <div class="map-responsive col-md-8 ">
-            <iframe class=" pt-5 pl-5"
+        <div class="map-responsive col-md-7 ">
+            <iframe class=" pt-5 pl-5 "
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d559.6955068054152!2d57.32163884763644!3d37.48159112114854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f709660aba44931%3A0x4d402cad3369a66c!2z2b7Yp9ix2qkg2LnZhNmFINmIINmB2YbYp9mI2LHbjCDYrtix2KfYs9in2YYg2LTZhdin2YTbjA!5e0!3m2!1sen!2s!4v1573582255277!5m2!1sen!2s"
                 width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
-        <div class="col-md-4 cantact-div">
-            <div class="col-md-12">
-                <h2 class="mb-5 mt-5">راه‌های ارتباطی</h2>
+        <div class="col-md-5 pt-4 pr-5 pl-5">
+            <div class="col-md-12 pt-4 pb-4 pl-5 pr-5  cantact-div">
+                <h2 class=" mb-5">راه‌های ارتباطی</h2>
                 <h4>شماره تماس</h4>
-                <span> 09151515151</span>
+                <span class="text-muted"> 09151515151</span>
                 <br>
                 <hr>
                 <h4> ایمیل</h4>
-                <span> info@gmail.com </span>
+                <span class="text-muted"> info@gmail.com </span>
                 <br>
                 <hr>
                 <h4> کد پستی</h4>
-                <span> 1234567891 </span>
+                <span class="text-muted"> 1234567891 </span>
                 <br>
                 <hr>
                 <h4>آدرس</h4>
-                <span>بجنورد-صمدیه لباف-پارک علم و فناوری- طبقه چهارم</span>
+                <span class="text-muted">بجنورد-صمدیه لباف-پارک علم و فناوری- طبقه چهارم</span>
             </div>
         </div>
     </div>
-    <div class="col-md-12 contact-form pb-4">
-        <h2>نظر، پیشنهاد یا انتقادی دارید؟</h2>
-        <form class="d_flex mx-auto center col-md-6">
-            <div class="row col-md-12">
-                <div class="col-md-12"><input class="col-md-12 col-sm-12 input-style" type="text"
-                        placeholder="نام و نام‌خانوادگی" /></div>
-                <div class="col-md-12"><input class="col-md-12 input-style" type="email" placeholder="ایمیل" />
+    <!-- contact form -->
+    <section class="contact-form row pr-5 pt-5 pb-5" id="team-request">
+        <div class="col-md-3 pt-5 mt-4">
+            <h2 >فرم ثبت نظر، انتقاد و پیشنهاد</h2>
+        </div>
+        <div id="div-form " class="col-md-9 pt-5">
+            <form class=" col-md-12">
+                <div class="row col-md-12">
+                    <div class="col-md-4"><input class="col-md-12 col-sm-12 input-style" type="text"
+                            placeholder="نام و نام‌خانوادگی" /></div>
+                    <div class="col-md-4"><input class="col-md-12 input-style" type="email" placeholder="ایمیل" />
+                    </div>
+                    <div class="col-md-4"><input class="col-md-12 input-style" type="tel" placeholder="شماره تماس" />
+                    </div>
+                    <div class="col-md-9"><textarea class="col-md-12 input-style"
+                            placeholder="نظر، انتقاد و پیشنهاد شما..."></textarea></div>
+                    <div class="col-md-3 pt-3"><button class="col-md-12 pt-2 pb-2" type="submit">ارسال پیام</div>
                 </div>
-                <div class="col-md-12"><input class="col-md-12 input-style" type="tel" placeholder="شماره تماس" />
-                </div>
-                <div class="col-md-12"><textarea class="col-md-12 input-style"
-                        placeholder="مهارت‌ها و سابقه‌ی کاری"></textarea></div>
-                <div class="col-md-12"><button class="col-md-5" type="submit">ثبت درخواست</div>
-            </div>
-        </form>
-    </div>
-
+            </form>
+        </div>
+    </section>
     <!-- footer -->
     <footer>
-        <div class="col-md-12 row footer-div">
+        <div class="col-md-12 row footer-div mt-0">
+            <div class="col-md-3 a-style">
+                <a href="index.html">صفحه‌ی اصلی</a>
+                <br>
+                <br>
+                <a href="blog.html">بلاگ</a>
+                <br>
+                <br>
+                <a href="contact.html">تماس با ما</a>
+                <br>
+                <br>
+                <a href="about.html">درباره‌ی ما</a>
+                <br>
+                <br>
+                <a href="#" style="color: blueviolet">خرید نرم‌افزار</a>
+                <br>
+            </div>
             <div class="col-md-3 pr-5">
                 <h6 class="mb-5">عضویت در خبرنامه</h6>
                 <p>برای اطلاع از آخرین اخبار ایمیل خود را وارد کنید</p>
@@ -105,22 +126,7 @@
                 <br>
                 <span> آدرس: بجنورد-صمدیه لباف-پارک علم و فناوری- طبقه چهارم</span>
             </div>
-            <div class="col-md-3 a-style">
-                <a href="index.html">صفحه‌ی اصلی</a>
-                <br>
-                <br>
-                <a href="blog.html">بلاگ</a>
-                <br>
-                <br>
-                <a href="contact.html">تماس با ما</a>
-                <br>
-                <br>
-                <a href="about.html">درباره‌ی ما</a>
-                <br>
-                <br>
-                <a href="#" style="color: blueviolet">خرید نرم‌افزار</a>
-                <br>
-            </div>
+
             <div class="col-md-3">
                 <img src="images/logo (1).png" alt="about GIS" width="100px" class=" img-fluid ">
                 <img src="images/star2.png" alt="about GIS" width="100px" class=" img-fluid ">

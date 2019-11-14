@@ -99,21 +99,21 @@ body {
 
 /**app-section**/
 .app-section {
-    background-color: darkorchid;
+    background-color: rgba(255, 208, 0, 0.781);
     color: #0c0f38;
     text-align: center;
 }
 
 .app-section button {
-    background-color: #ddd;
+    padding-right: 30px;
+    padding-left: 30px; 
+    background-color: #fff;
 }
 
-.app-section button:hover {
-    background-color: #0c0f38;
-}
 
 .app-section a {
     text-decoration: none;
+    color: #000;
 }
 
 /**section 3**/
@@ -242,9 +242,11 @@ footer button:hover {
 /**about**/
 /**form**/
 .team-form{
-    background-color: #ffffff;    
+    padding-top: 30px;
+    background-color: #0c0f38;    
     direction:rtl;
     text-align:center;
+    color: #fff;
 }
 .team-form h1 {
     color: #8308eb;
@@ -253,7 +255,8 @@ footer button:hover {
     font-weight: bold;
 }
 #div-form{
-    background-color:  #fff; 
+    background-color:  #0c0f38; 
+    padding-bottom: 30px;
 }
 .team-form form{
         background: #0c0f38;
@@ -273,16 +276,18 @@ form button{
     border-radius: 3px;
 }
 /**contact page**/
+.info-section{
+    background-color: #0c0f38
+}
 .cantact-div{
     direction: rtl;
     text-align: right;
-    padding: 30px;
 }
 .cantact-div h2{
     color: #8308eb
 }
 .cantact-div h4{
-    color: #0c0f38
+    color: #fff
 }
 /**map**/
 .map-responsive{
@@ -299,6 +304,7 @@ form button{
     position:absolute;
 }
 .contact-form{
+    background-color: #fff;
     text-align: center;
     direction: rtl;
 }
